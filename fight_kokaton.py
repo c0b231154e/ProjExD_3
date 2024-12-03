@@ -192,6 +192,9 @@ def main():
         if beam is not None:
             beam.update(screen)
         # bomb2.update(screen)
+
+
+        
         pg.display.update()
         tmr += 1
         clock.tick(50)
