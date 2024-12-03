@@ -202,6 +202,7 @@ def main():
                     bird.change_img(6, screen)
                     score.increase()
                     pg.display.update()
+                    #空白を追加
         score.update(screen)
         key_lst = pg.key.get_pressed()
         bird.update(key_lst, screen)
